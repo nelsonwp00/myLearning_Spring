@@ -11,4 +11,8 @@ Roadmap on building a microservice:
 3. Containerize Spring Applicaiton
     - Docker
 ---
- To be explored with Spring Application : gRPC, GraphQL, Kafka, Grafana, Prometheus, NoSQL Database, Time Series Database
+ To be explored with Spring Application :
+ - API Architecture : gRPC, GraphQL
+ - Message Queue : Kafka
+ - System Monitoring : Grafana, Prometheus
+ - Database : NoSQL Database, Time Series Database
