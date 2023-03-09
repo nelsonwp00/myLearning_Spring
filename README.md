@@ -1,6 +1,12 @@
 # myLearning_Spring
 to study Java Spring Framework
 > Start Simple and Iterate
+
+|  | Version |
+| ----------- | ----------- |
+| Java | OpenJDK 17 |
+| Spring | 3.1 |
+| Maven | 3.9 |
 ---
 Roadmap on building a microservice: 
 1. CRUD with Controller, Service and Repository Layer
