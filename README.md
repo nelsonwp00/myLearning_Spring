@@ -12,13 +12,15 @@ Roadmap on building a microservice:
 1. CRUD with Controller, Service and Repository Layer
     - JPA Hibernate, MySQL Database
   
-2. AOP on Service Layer
+2. AOP on Business Logic Layer (i.e. Service Layer)
+    - AspectJ AOP, Spring AOP
 
 3. Containerize Spring Applicaiton
     - Docker
 ---
  To be explored with Spring Application :
  - API Architecture : gRPC, GraphQL
- - Message Queue : Kafka
- - System Monitoring : Grafana, Prometheus
- - Database : NoSQL Database, Time Series Database
+ - Message Queue : Apache Kafka
+ - System Monitoring : Grafana, Prometheus, ElasticSearch
+ - Database : NoSQL Database (MongoDB)
+ - Spring Cloud Gateway
