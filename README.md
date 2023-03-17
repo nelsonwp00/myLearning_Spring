@@ -10,13 +10,28 @@ to study Java Spring Framework
 ---
 Roadmap on building a microservice: 
 1. CRUD with Controller, Service and Repository Layer
-    - Spring Data JPA Hibernate, MySQL Database
-  
-2. AOP on Business Logic Layer (i.e. Service Layer)
-    - AspectJ AOP
+    - Persistence Layer : Spring Data JPA Hibernate, MySQL, MongoDB
 
-3. Containerize Spring Application
-    - Docker
+
+2. AOP on Service Layer
+   - AspectJ AOP
+
+
+3. Spring JPA Transaction Management on Service Layer
+   - study transaction propagation and isolation levels
+
+
+4. Multi-threading Task on Service Layer
+
+
+5. Java Debug Experiment
+
+
+6. JVM Monitoring
+
+
+7. Containerize Spring Application
+    - Docker, Kubernetes
 ---
  To be explored with Spring Application :
  - API Architecture : gRPC, GraphQL
