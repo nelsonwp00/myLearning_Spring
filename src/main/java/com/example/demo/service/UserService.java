@@ -7,6 +7,8 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.Optional;
@@ -19,10 +21,12 @@ public class UserService {
     @Autowired
     private ModelMapper modelMapper;
 
+    @Transactional
     public Iterable<User> getAllUsers() {
         return repo.findAll();
     }
 
+    @Transactional
     public void addNewUser(String name, String email) {
         User user = new User();
         user.setName(name);
@@ -30,12 +34,14 @@ public class UserService {
         repo.save(user);
     }
 
+    @Transactional
     public void updateUser(UserDTO dto) {
         getUserOrException(dto.getId());
         User newUser = modelMapper.map(dto, User.class);
         repo.save(newUser);
     }
 
+    @Transactional
     public void deleteUser(int id) {
         repo.delete(getUserOrException(id));
     }
