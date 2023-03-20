@@ -11,6 +11,7 @@ to study Java Spring Framework
 Roadmap on building a microservice: 
 1. CRUD with Controller, Service and Repository Layer
     - Persistence Layer : Spring Data JPA Hibernate, MySQL, MongoDB
+    - Service Layer : support GraphQL
 
 
 2. AOP on Service Layer
@@ -39,3 +40,4 @@ Roadmap on building a microservice:
  - System Monitoring : Grafana, Prometheus, ElasticSearch
  - Database : NoSQL Database (MongoDB)
  - Spring Cloud Gateway
+ - Reactive Programming : Spring WebFlux - Netty

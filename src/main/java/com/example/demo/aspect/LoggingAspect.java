@@ -7,11 +7,12 @@ import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 
-//@Aspect
-//@Component
+@Aspect
+@Component
 public class LoggingAspect {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
