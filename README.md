@@ -11,7 +11,7 @@ to study Java Spring Framework
 Roadmap on building a microservice: 
 1. CRUD with Controller, Service and Repository Layer
     - Persistence Layer : Spring Data JPA Hibernate, MySQL, MongoDB
-    - Service Layer : support GraphQL
+    - Controller Layer : expose REST and GraphQL API
 
 
 2. AOP on Service Layer
@@ -35,7 +35,7 @@ Roadmap on building a microservice:
     - Docker, Kubernetes
 ---
  To be explored with Spring Application :
- - API Architecture : gRPC, GraphQL
+ - API Architecture : gRPC
  - Message Queue : Apache Kafka
  - System Monitoring : Grafana, Prometheus, ElasticSearch
  - Database : NoSQL Database (MongoDB)
